@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: aqua;
+
+
+    padding: 15px 0;
+
+    display: flex;
+
+
+    flex-flow: row wrap;
+
+
+    justify-content: center;
+
+
+    align-items: center;
+
+
+    gap: 10px;
+
+
+    height: 100px;
+
+    a {
+
+
+        text-decoration: none;
+
+        color: black
+    }
+
+    a:hover {
+        scale: 1.1;
+        transition: all 500ms;
+        font-weight: bolder;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+p {
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+div {
+    img {
+       flex: 1 1 300px;
+       margin: auto;
+
+    }
+}
