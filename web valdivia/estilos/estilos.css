@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: aqua;
+
+
+    padding: 15px 0;
+
+    display: flex;
+
+
+    flex-flow: row wrap;
+
+
+    justify-content: center;
+
+
+    align-items: center;
+
+
+    gap: 10px;
+
+
+    height: 100px;
+
+    a {
+
+
+        text-decoration: none;
+
+        color: black
+    }
+
+    a:hover {
+        scale: 1.1;
+        transition: all 500ms;
+        font-weight: bolder;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+p {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF7zTE820NvVOcHJMeiJoAcuqJCj4KX859dg&s');
+    /* para colocar imagen */
+    padding: 10px;
+    background-color: aquamarine;
+    /* pone color al fondo */
+    background-repeat: no-repeat;
+    /* para repetir o no la imagen */
+    background-position: center;
+    /* para colocar la posición de la imagen, puede ser manual o automatico */
+    background-size: 100% 100%;
+    /* para controlar cuanto contorno ocupa la imagen */
+    background-attachment: fixed;
+
+}
+
+div {
+    img {
+       flex: 1 1 300px;
+       margin: auto;
+
+    }
+}
